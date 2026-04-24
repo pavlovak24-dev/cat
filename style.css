@@ -1,14 +1,14 @@
-/* Загальні налаштування сторінки */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f8ff; /* Світло-блакитний фон, як на скриншоті */
+    background-color: #f0f8ff; 
     display: flex;
     justify-content: center;
     padding-top: 50px;
     margin: 0;
 }
 
-/* Контейнер списку */
+
 .task-card {
     background-color: #ffffff;
     width: 350px;
@@ -17,24 +17,24 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Заголовок */
+
 .task-card h2 {
     margin: 0;
     padding: 15px 20px;
     background: linear-gradient(to bottom, #ffffff, #eeeeee);
     border-bottom: 1px solid #dcdcdc;
-    color: #007b00; /* Темно-зелений */
+    color: #007b00; 
     font-size: 1.2rem;
 }
 
-/* Налаштування списку (прибираємо стандартні крапки) */
+
 .task-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-/* Окреме завдання */
+
 .task {
     display: flex;
     align-items: center;
@@ -44,12 +44,12 @@ body {
     font-weight: 600;
 }
 
-/* Прибираємо лінію під останнім завданням */
+
 .task:last-child {
     border-bottom: none;
 }
 
-/* Базовий стиль для кружечка (іконки) */
+
 .icon {
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ body {
     font-size: 14px;
 }
 
-/* Стилі для ВИКОНАНИХ завдань */
+
 .completed .icon {
     border: 2px solid #009900;
     color: #009900;
@@ -73,7 +73,7 @@ body {
     text-decoration-thickness: 2px;
 }
 
-/* Стилі для НЕВИКОНАНИХ завдань */
+
 .pending .icon {
     border: 2px solid #cccccc;
 }
